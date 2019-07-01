@@ -1,0 +1,9 @@
+vi:
+  static_pages:
+    help:
+      help: "Trợ giúp"
+    home:
+      home: "Trang chủ"
+    about:
+      about: "Giới thiệu"
+
