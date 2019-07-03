@@ -2,3 +2,4 @@ maximum_length_name: 50
 maximum_length_email: 255
 minimum_length_pass: 6
 gravatar_size: 50
+remember_me_value: "1"
