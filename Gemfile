@@ -45,3 +45,5 @@ end
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "rubocop", "~>0.54.0", require: false
+
+gem "bootstrap-sass", "3.3.7"
