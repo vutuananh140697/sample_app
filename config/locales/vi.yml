@@ -1,13 +1,44 @@
 vi:
+  en_key: "Tiếng Anh"
+  vi_key: "Tiếng Việt"
+  in: "Đăng nhập"
+  out: "Đăng xuất"
+  sample: "Ứng dụng mẫu"
+  title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  ruby: "Hướng dẫn về Ruby on Rails"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  about: "Giới thiệu"
+  contact: "Liên hệ"
+  new: "Tin tức"
   static_pages:
-    help:
-      help: "Trợ giúp"
     home:
       home: "Trang chủ"
+      app: "Chào mừng bạn đến với Ứng dụng mẫu"
+      home_for: "Đây là trang chủ cho "
+      home_name: "ứng dụng sample"
+      sign_up: "Đăng ký ngay !"
+    help:
+      help: "Trợ giúp"
+      help_ruby: "Tìm kiếm trợ giúp ruby on rails tutorial tại"
+      help_app: "Tìm trợ giúp trên cùng app , tìm tại"
+      ruby: "Trang trợ giúp hướng dẫn Rails"
     about:
+      book: "cuốn sách"
+      screen: "chuỗi bài"
       about: "Giới thiệu"
+      the: ""
+      is: "là một"
+      and: "và"
+      about_teach: "để dạy phát triển web với"
+      about_app: "Đây là ứng dụng mẫu cho hướng dẫn"
     contact:
       contact: "Liên hệ"
+      contact_ruby: "Liên hệ với hướng dẫn của Ruby on rails về ứng dụng mẫu tại"
   users:
     new:
-      signup: "Đăng kí"
+      sign_up: "Đăng ký"
+      new_content: "Trang đăng kí cho người dùng mới"
+
+  the: ""
+  by: "bởi"

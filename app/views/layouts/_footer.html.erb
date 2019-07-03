@@ -1,15 +1,16 @@
 <footer class="footer">
   <small>
-    The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+    <%= t "the" %> <%= link_to "Ruby on Rails Tutorials", "https://www.railstutorial.org/" %>
+    <%= t "by" %> <%= link_to "Micheal Hatl", "http://www.michaelhartl.com/" %>
   </small>
   <nav>
     <ul>
-      <li><%= link_to "English", locale:"en" %></li>
-      <li><%= link_to "Vietnamese", locale:"vi" %></li>
-      <li><%= link_to "About", about_path %></li>
-      <li><%= link_to "Contact", contact_path %></li>
-      <li><a href="http://news.railstutorial.org/">News</a></li>
+      <li><%= link_to t("en_key"), locale: "en" %></li>
+      <li><%= link_to t("vi_key"), locale: "vi" %></li>
+      <li><%= link_to t("about"), about_path %></li>
+      <li><%= link_to t("contact"), contact_path %></li>
+      <li><%= link_to t("new"), 'http://news.railstutorial.org/' %></li>
     </ul>
   </nav>
 </footer>
+
