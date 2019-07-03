@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+
   def index
     redirect_to signup_path
   end
@@ -11,7 +12,8 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      flash[:success] = t("welcome")
+      log_in @user
+      flash[:success] = t "welcome"
       redirect_to @user
     else
       render :new
@@ -23,8 +25,9 @@ class UsersController < ApplicationController
   end
 
   private
-    def user_params
-      params.require(:user).permit :name, :email, :password,
-                                   :password_confirmation
-    end
+
+  def user_params
+    params.require(:user).permit :name, :email, :password,
+                                 :password_confirmation
+  end
 end

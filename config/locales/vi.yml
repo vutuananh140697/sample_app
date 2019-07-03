@@ -41,9 +41,34 @@ vi:
     new:
       sign_up: "Đăng ký"
       new_content: "Trang đăng kí cho người dùng mới"
-      Create_account: "Taọ tài khoản"
+      create_my_account: "Tạo tài khoản"
+      name: "Tên"
+      password: "Mật khẩu"
+      pass_confirm: "Xác nhận"
 
-  the: ""
-  by: "bởi"
-  form_contains: "Biểu mẫu có "
+  the_form_contains: "Biểu mẫu chứa "
   error: "lỗi"
+
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: " không được để trống"
+            email:
+              blank: "  không được để trống"
+              invalid: " không hợp lệ"
+            password:
+              blank: " không được để trống"
+              too_short: " qúa ngắn"
+  invalid_combi: "Email và mật khẩu không khớp"
+  sign_up_now: "Đăng kí ngay!"
+  log_out: "Đăng xuất"
+  Settings: "Sửa đổi"
+  Profile: "Thông tin"
