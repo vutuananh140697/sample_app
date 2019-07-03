@@ -37,3 +37,8 @@ en:
       home: "Home"
     about:
       about: "About"
+    contact:
+      contact: "Contact"
+  users:
+    new:
+      signup: "Sign up"

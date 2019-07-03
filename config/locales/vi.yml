@@ -6,4 +6,8 @@ vi:
       home: "Trang chủ"
     about:
       about: "Giới thiệu"
-
+    contact:
+      contact: "Liên hệ"
+  users:
+    new:
+      signup: "Đăng kí"
