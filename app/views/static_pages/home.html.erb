@@ -3,9 +3,8 @@
   <h1><%= t ".app" %></h1>
   <h2>
     <%= t ".home_for" %>
-    <%= link_to t("ruby").html_safe, "https://www.railstutorial.org/" %>
+    <%= link_to t("ruby"), "https://www.railstutorial.org/" %>
     <%= t ".home_name" %>
   </h2>
-  <%= link_to t(".sign_up").html_safe, signup_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
-<%= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org'%>
