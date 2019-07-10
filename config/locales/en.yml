@@ -11,6 +11,8 @@ en:
   about: "About"
   contact: "Contact"
   new: "News"
+  rails: "Ruby on Rails Tutorial Sample App"
+  welcome: "Welcome to the Sample App!"
   static_pages:
     home:
       home: "Home"
@@ -39,3 +41,6 @@ en:
     new:
       sign_up: "Sign Up"
       new_content: "This will be a signup page for new users"
+      Create_account: "Creat my account"
+  form_contains: "The form contains "
+  error: "error"

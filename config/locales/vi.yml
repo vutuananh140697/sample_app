@@ -11,6 +11,8 @@ vi:
   about: "Giới thiệu"
   contact: "Liên hệ"
   new: "Tin tức"
+  rails: "Ứng dụng mẫu ruby on rails"
+  welcome: "Chào mừng đến với ứng dụng mẫu"
   static_pages:
     home:
       home: "Trang chủ"
@@ -39,6 +41,9 @@ vi:
     new:
       sign_up: "Đăng ký"
       new_content: "Trang đăng kí cho người dùng mới"
+      Create_account: "Taọ tài khoản"
 
   the: ""
   by: "bởi"
+  form_contains: "Biểu mẫu có "
+  error: "lỗi"
