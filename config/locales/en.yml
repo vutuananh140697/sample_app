@@ -41,6 +41,15 @@ en:
     new:
       sign_up: "Sign Up"
       new_content: "This will be a signup page for new users"
-      Create_account: "Creat my account"
-  form_contains: "The form contains "
+      create_my_account: "Create my account"
+      name: "Name"
+      password: "Password"
+      pass_confirm: "Confirmation"
+
+  the_form_contains: "The form contains"
   error: "error"
+  invalid_combi: "Invalid email/password combination"
+  sign_up_now: "Sign up now!"
+  log_out: "Log out"
+  Settings: "Settings"
+  Profile: "Profile"
