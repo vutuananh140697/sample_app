@@ -1,7 +1,8 @@
 <footer class="footer">
   <small>
-    <%= t "the" %> <%= link_to "Ruby on Rails Tutorials", "https://www.railstutorial.org/" %>
-    <%= t "by" %> <%= link_to "Micheal Hatl", "http://www.michaelhartl.com/" %>
+    <%= t "the" %>
+    <%= link_to t("tutorials"), "https://www.railstutorial.org/" %>
+    <%= t "by" %> <%= link_to t("Micheal_Hatl"), "http://www.michaelhartl.com/" %>
   </small>
   <nav>
     <ul>
@@ -9,7 +10,7 @@
       <li><%= link_to t("vi_key"), locale: "vi" %></li>
       <li><%= link_to t("about"), about_path %></li>
       <li><%= link_to t("contact"), contact_path %></li>
-      <li><%= link_to t("new"), 'http://news.railstutorial.org/' %></li>
+      <li><%= link_to t("new"), "http://news.railstutorial.org/" %></li>
     </ul>
   </nav>
 </footer>

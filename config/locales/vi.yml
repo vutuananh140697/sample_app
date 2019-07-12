@@ -62,7 +62,7 @@ vi:
             name:
               blank: " không được để trống"
             email:
-              blank: "  không được để trống"
+              blank: " không được để trống"
               invalid: " không hợp lệ"
             password:
               blank: " không được để trống"
@@ -72,3 +72,11 @@ vi:
   log_out: "Đăng xuất"
   Settings: "Sửa đổi"
   Profile: "Thông tin"
+  log_in: "Đăng nhập"
+  tutorials: "Tài liệu Ruby on Rails"
+  Micheal_Hatl: "Micheal Hatl"
+  the: ""
+  by: "bởi"
+  Account: "Tài khoản"
+  Remember: "Ghi nhớ đăng nhập"
+  Users: "Người dùng"
