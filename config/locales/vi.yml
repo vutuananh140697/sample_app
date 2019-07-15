@@ -45,6 +45,16 @@ vi:
       name: "Tên"
       password: "Mật khẩu"
       pass_confirm: "Xác nhận"
+      edit_user: "Sửa đổi thông tin"
+    edit:
+      name: "Tên"
+      password: "Mật khẩu"
+      pass_confirm: "Xác nhận"
+      edit_user: "Sửa đổi thông tin"
+      save_changes: "Lưu thay đổi"
+      change: "Thay đổi"
+    index:
+      all_users: "Danh sách người dùng"
 
   the_form_contains: "Biểu mẫu chứa "
   error: "lỗi"
@@ -80,3 +90,12 @@ vi:
   Account: "Tài khoản"
   Remember: "Ghi nhớ đăng nhập"
   Users: "Người dùng"
+  user_deleted: "Đã xóa người dùng"
+  delete_admin: "Không thể xóa admin!"
+  Profile_updated: "Hồ sơ đã được cập nhật"
+  success: "Xóa thành công"
+  danger: "Xóa không thành công"
+  Please_login: "Làm ơn đăng nhập"
+  user_not_found: "Không tìm thấy người dùng"
+  You_sure: "Bạn có chắc chắn?"
+

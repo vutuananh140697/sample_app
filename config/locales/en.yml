@@ -45,6 +45,14 @@ en:
       name: "Name"
       password: "Password"
       pass_confirm: "Confirmation"
+    edit:
+      name: "Name"
+      password: "Password"
+      pass_confirm: "Confirmation"
+      save_changes: "Save change"
+      change: "Change"
+    index:
+      all_users: "All users"
 
   the_form_contains: "The form contains"
   error: "error"
@@ -61,3 +69,12 @@ en:
   Account: "Account"
   Remember: "Remember me on this computer"
   Users: "Users"
+  user_deleted: "User deleted"
+  delete_admin: "Cannot delete admin!"
+  Profile_updated: "Profile updated"
+  success: "Delete successfully"
+  danger: "Delete failed"
+  Please_login: "Please log in"
+  user_not_found: "User not found"
+  You_sure: "You sure?"
+
