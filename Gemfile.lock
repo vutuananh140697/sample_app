@@ -72,6 +72,8 @@ GEM
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
+    bootstrap-will_paginate (1.0.0)
+      will_paginate
     builder (3.2.3)
     byebug (11.0.1)
     capybara (3.25.0)
@@ -134,6 +136,8 @@ GEM
     faker (1.7.3)
       i18n (~> 0.5)
     ffi (1.11.1)
+    figaro (1.1.1)
+      thor (~> 0.14)
     formatador (0.2.5)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -312,6 +316,7 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
+    will_paginate (3.1.7)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.1.8)
@@ -324,11 +329,13 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   bootstrap-kaminari-views
   bootstrap-sass (= 3.3.7)
+  bootstrap-will_paginate (~> 1.0.0)
   byebug
   capybara (>= 2.15)
   coffee-rails (~> 4.2)
   config
   faker (~> 1.7.3)
+  figaro
   guard (>= 2.13.0)
   guard-minitest (>= 2.4.4)
   jbuilder (~> 2.5)
@@ -351,6 +358,7 @@ DEPENDENCIES
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
+  will_paginate (~> 3.1.6)
 
 RUBY VERSION
    ruby 2.5.5p157

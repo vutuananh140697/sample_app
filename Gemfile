@@ -47,10 +47,11 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "rubocop", "~>0.54.0", require: false
 
 gem "bcrypt", "3.1.12"
+gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "3.3.7"
 gem "coffee-rails", "~> 4.2"
 gem "config"
-gem "jquery-rails", "4.3.1"
 gem "faker", "~>1.7.3"
+gem "figaro"
+gem "jquery-rails", "4.3.1"
 gem "kaminari"
-gem "bootstrap-kaminari-views"
