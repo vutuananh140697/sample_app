@@ -77,4 +77,11 @@ en:
   Please_login: "Please log in"
   user_not_found: "User not found"
   You_sure: "You sure?"
-
+  account_activated: "Account activated!"
+  invalid_link: "Invalid activation link"
+  not_acctivated: "Account not activated. "
+  check_mail: "Check your email for the activation link."
+  activate_account: "Please check your email to activate your account."
+  admin: "Welcome admin!"
+  user: "Welcome user"
+  delete: "delete"

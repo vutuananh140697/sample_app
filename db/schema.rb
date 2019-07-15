@@ -1,4 +1,4 @@
-ActiveRecord::Schema.define(version: 2019_07_03_044027) do
+ActiveRecord::Schema.define(version: 2019_07_07_033634) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
@@ -6,7 +6,10 @@ ActiveRecord::Schema.define(version: 2019_07_03_044027) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "password_digest"
     t.string "remember_digest"
-    t.boolean "admin"
+    t.boolean "admin", default: false
+    t.string "activation_digest"
+    t.boolean "activated", default: false
+    t.datetime "activated_at"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 

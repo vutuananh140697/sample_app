@@ -98,4 +98,11 @@ vi:
   Please_login: "Làm ơn đăng nhập"
   user_not_found: "Không tìm thấy người dùng"
   You_sure: "Bạn có chắc chắn?"
-
+  account_activated: "Tài khoản đã được kích hoạt!"
+  invalid_link: "Link kích hoạt không tồn tại"
+  not_acctivated: "Tài khoản chưa kích hoạt. "
+  check_mail: "Kiểm tra link kích hoạt trong mail của bạn."
+  activate_account: "Kiểm tra mail của bạn để kích hoạt tài khoản."
+  admin: "Chào admin!"
+  user: "Chào user!"
+  delete: "xóa"
