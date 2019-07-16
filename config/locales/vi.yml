@@ -118,3 +118,61 @@ vi:
   delete: "Xóa"
   forgot_pass: "(Quên mật khẩu)"
   Activate: "Kích hoạt"
+  image_size: "phải nhỏ hơn 5M"
+  compose_post: "Viết bài mới..."
+  view_profile: "xem thông tin"
+  micropost: "bài viết"
+  Post: "Đăng bài"
+  Posted: "Đã đăng "
+  ago: "trước."
+  Micropost Feed: "Bài viết"
+  Micropost_created: "Bài viết đã được tạo!"
+  Micropost_deleted: "Bài viết đã được xóa"
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: khoảng một giờ
+        other: khoảng %{count} giờ
+      about_x_months:
+        one: khoảng một tháng
+        other: khoảng %{count} tháng
+      about_x_years:
+        one: khoảng một năm
+        other: khoảng %{count} năm
+      almost_x_years:
+        one: gần một năm
+        other: gần %{count} năm
+      half_a_minute: nửa phút
+      less_than_x_minutes:
+        zero: ít hơn một phút
+        one: ít hơn một phút
+        other: ít hơn %{count} phút
+      less_than_x_seconds:
+        zero: ít hơn một giây
+        one: ít hơn một giây
+        other: ít hơn %{count} giây
+      over_x_years:
+        one: hơn một năm
+        other: hơn %{count} năm
+      x_days:
+        one: một ngày
+        other: "%{count} ngày"
+      x_minutes:
+        one: 1 phút
+        other: "%{count} phút"
+      x_months:
+        one: 1 tháng
+        other: "%{count} tháng"
+      x_years:
+        one: 1 năm
+        other: "%{count} năm"
+      x_seconds:
+        one: 1 giây
+        other: "%{count} giây"
+  views:
+    pagination:
+      first: "« Đầu"
+      last: "Cuối »"
+      previous: "‹ Trước"
+      next: "Sau ›"
+      truncate: "…"
