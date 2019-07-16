@@ -35,25 +35,24 @@ class PasswordResetsController < ApplicationController
 
   private
 
-    def user_params
-      params.require(:user).permit :password, :password_confirmation
-    end
+  def user_params
+    params.require(:user).permit :password, :password_confirmation
+  end
 
-    def get_user
-      @user = User.find_by email: params[:email]
-    end
+  def get_user
+    @user = User.find_by email: params[:email]
+  end
 
-    def valid_user
-      unless (@user && @user.activated? &&
-              @user.authenticated?(:reset, params[:id]))
-        redirect_to root_url
-      end
+  def valid_user
+    unless @user&.activated? &&
+           @user.authenticated?(:reset, params[:id])
+      redirect_to root_url
     end
+  end
 
-    def check_expiration
-      if @user.password_reset_expired?
-        flash[:danger] = t "password_expired"
-        redirect_to new_password_reset_url
-      end
-    end
+  def check_expiration
+    return unless @user.password_reset_expired?
+    flash[:danger] = t "password_expired"
+    redirect_to new_password_reset_url
+  end
 end

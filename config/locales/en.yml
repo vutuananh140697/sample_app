@@ -97,3 +97,62 @@ en:
   delete: "delete"
   forgot_pass: "(forgot password)"
   Activate: "Activate"
+  image_size: "should be less than 5MB"
+  compose_post: "Compose new micropost..."
+  view_profile: "view my profile"
+  micropost: "micropost"
+  Post: "Post"
+  Posted: "Posted "
+  ago: "ago."
+  Micropost Feed: "Micropost Feed"
+  Micropost_created: "Micropost created!"
+  Micropost_deleted: "Micropost deleted"
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: about one hour
+        other: about %{count} hours
+      about_x_months:
+        one: about one month
+        other: about %{count} months
+      about_x_years:
+        one: about one year
+        other: about %{count} years
+      almost_x_years:
+        one: almost one year
+        other: almost %{count} years
+      half_a_minute: half_a_minute
+      less_than_x_minutes:
+        zero: less than a minute
+        one: less than a minute
+        other: less than %{count} minutes
+      less_than_x_seconds:
+        zero: less than a second
+        one: less than a second
+        other: less than %{count} seconds
+      over_x_years:
+        one: over one year
+        other: over %{count} years
+      x_days:
+        one: 1 day
+        other: "%{count} days"
+      x_minutes:
+        one: 1 minute
+        other: "%{count} minutes"
+      x_months:
+        one: 1 month
+        other: "%{count} months"
+      x_years:
+        one: a year
+        other: "%{count} years"
+      x_seconds:
+        one: 1 second
+        other: "%{count} seconds"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "..."
+
