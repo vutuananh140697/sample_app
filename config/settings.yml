@@ -2,7 +2,9 @@ maximum_length_name: 50
 maximum_length_email: 255
 minimum_length_pass: 6
 gravatar_size: 50
+show_follow: 30
 remember_me_value: "1"
 per_number: 10
 maximum_micropost_content_length: 140
 limit_size: 400
+picture_size: 5

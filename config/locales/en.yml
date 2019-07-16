@@ -107,6 +107,14 @@ en:
   Micropost Feed: "Micropost Feed"
   Micropost_created: "Micropost created!"
   Micropost_deleted: "Micropost deleted"
+  following: "Following"
+  followers: "Followers"
+  view_my_profile: "view my profile"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  followed: "Followed"
+  unfollow: "Unfollow"
+  user_not_found: "User not found"
   datetime:
     distance_in_words:
       about_x_hours:

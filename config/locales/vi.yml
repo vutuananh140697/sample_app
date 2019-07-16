@@ -128,6 +128,14 @@ vi:
   Micropost Feed: "Bài viết"
   Micropost_created: "Bài viết đã được tạo!"
   Micropost_deleted: "Bài viết đã được xóa"
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
+  view_my_profile: "xem thông tin"
+  follow: "Theo dõi"
+  unfollow: "Hủy theo dõi"
+  followed: "Đã theo dõi"
+  unfollow: "Hủy theo dõi"
+  user_not_found: "Không tìm thấy người dùng"
   datetime:
     distance_in_words:
       about_x_hours:
