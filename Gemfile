@@ -49,7 +49,7 @@ gem "rubocop", "~>0.54.0", require: false
 gem "bcrypt", "3.1.12"
 gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "3.3.7"
-gem "carrierwave", "1.2.2"
+gem "carrierwave", "1.3.2"
 gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "faker", "~>1.7.3"
